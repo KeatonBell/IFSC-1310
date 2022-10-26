@@ -5,8 +5,8 @@
 <title>Positioning Lab</title>
 <style type="text/css">
 * {
-	margin: 0px;
-	padding: 0px;
+margin:0;
+padding:0;
 }
 body {
 	background-color: #ECECEC;
@@ -17,8 +17,9 @@ body {
 	line-height: 24px;
 }
 #wrapper {
+	
 	background-color: #FFF;
-	border-top-width: 1px;
+	border-top-width: 140px;
 	border-right-width: 1px;
 	border-bottom-width: 1px;
 	border-left-width: 1px;
@@ -29,21 +30,47 @@ body {
 	width: 800px;
 	margin-right: auto;
 	margin-left: auto;
+	
 }
 #red {
+	position: absolute;
+	top:0;
+	left:0;
 	background-color: #900;
+	width: 100px;
+	height: 100px;
 }
 #green {
+	position: absolute;
+	top:0;
+	right:0;
 	background-color: #090;
+	width: 100px;
+	height: 100px;
 }
 #blue {
+	position: absolute;
+	bottom:0;
+	left:0;
 	background-color: #00F;
+	width: 100px;
+	height: 100px;
 }
 #purple {
+	position: absolute;
+	bottom:0;
+	right:0;
 	background-color: #63C;
+	width: 100px;
+	height: 100px;
 }
 #footer {
+	position: absolute;
+	top: 50%;
+  	right: 50%;
 	background-color: #666;
+	width: 100px;
+	height: 100px;
 }
 h1 {
 	color: #000;
@@ -54,7 +81,7 @@ h1 {
 </head>
 
 <body>
-<h1>Exercise 1</h1>
+<h1>Absolute Positioning 1</h1>
 <div id="wrapper">
   <div id="red">Red</div>
   <div id="green">Green</div>
