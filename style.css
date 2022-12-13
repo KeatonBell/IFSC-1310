@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     overflow: hidden;
   }
@@ -10,12 +10,20 @@ html {
   color: #ffffff;
   font-weight: bold;
   font-size: large;
+  margin: 20px;
+
   }
 
   a, a:hover, a:active, a:visited { 
     color: white; 
 }
-  
+ body h1{
+  text-decoration: underline;
+
+}
+body p{
+  font-size: medium;
+}
   #stars {
     width: 1px;
     height: 1px;
